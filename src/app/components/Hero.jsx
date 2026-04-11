@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { CheckCircle2, Users, Target, BookOpen, Star } from "lucide-react";
-import { Button } from "./ui/Button";
+import { Button } from "./ui/button";
 
 export function Hero() {
   const trustBadges = [

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, GraduationCap } from "lucide-react";
-import { Button } from "./ui/Button";
+import { Button } from "./ui/button";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);

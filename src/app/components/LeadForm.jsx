@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { Send, Phone, User, MapPin, Loader2 } from "lucide-react";
-import { Button } from "./ui/Button";
+import { Button } from "./ui/button";
 
 export function LeadForm() {
   const {
