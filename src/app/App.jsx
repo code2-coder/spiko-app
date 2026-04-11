@@ -26,7 +26,7 @@ export default function App() {
         <Courses />
         <TeacherRole />
         <Testimonials />
-        {/* <Hiring /> */}
+        <Hiring />
         <LeadForm />
       </main>
 

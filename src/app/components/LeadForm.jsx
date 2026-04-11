@@ -16,7 +16,6 @@ export function LeadForm() {
   const onSubmit = async (data) => {
     // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 1500));
-    console.log(data);
     toast.success("Thank you for enrolling!", {
       description: "We will contact you shortly to schedule your free demo.",
       duration: 5000,

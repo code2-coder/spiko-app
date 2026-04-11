@@ -35,14 +35,10 @@ export function Navbar() {
               <GraduationCap size={24} strokeWidth={2.5} />
             </div>
             <div className="flex flex-col">
-              <span
-                className={`text-xl font-bold leading-none ${isScrolled ? "text-blue-900" : "text-blue-900"}`}
-              >
+              <span className="text-xl font-bold leading-none text-blue-900">
                 Learn Quickly Academy
               </span>
-              <span
-                className={`text-[10px] font-bold tracking-widest ${isScrolled ? "text-blue-600" : "text-blue-600"}`}
-              >
+              <span className="text-[10px] font-bold tracking-widest text-blue-600">
                 SPIKO
               </span>
             </div>

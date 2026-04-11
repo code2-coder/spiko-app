@@ -131,7 +131,13 @@ export function Courses() {
                 <a href="#contact" className="mt-auto">
                   <Button
                     variant="outline"
-                    className={`w-full border-slate-600 text-slate-300 hover:border-${course.accent.split("-")[1]}-500 hover:bg-${course.accent.split("-")[1]}-500 hover:text-white`}
+                    className={`w-full border-slate-600 text-slate-300 hover:text-white transition-all duration-300 ${
+                      course.id === "english"
+                        ? "hover:border-blue-500 hover:bg-blue-600"
+                        : course.id === "interview"
+                          ? "hover:border-emerald-500 hover:bg-emerald-600"
+                          : "hover:border-purple-500 hover:bg-purple-600"
+                    }`}
                   >
                     Enroll Now
                   </Button>
