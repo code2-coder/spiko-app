@@ -31,9 +31,7 @@ export function Navbar() {
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => window.scrollTo(0, 0)}
           >
-            <div className="bg-blue-600 p-2 rounded-xl text-white">
-              <GraduationCap size={24} strokeWidth={2.5} />
-            </div>
+            <img src="/logo.png" alt="Spiko Logo" className="h-10 w-10 object-contain" />
             <div className="flex flex-col">
               <span className="text-xl font-bold leading-none text-blue-900">
                 Learn Quickly Academy

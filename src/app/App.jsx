@@ -7,11 +7,11 @@ import { VisionMission } from "./components/VisionMission";
 import { Features } from "./components/Features";
 import { Courses } from "./components/Courses";
 import { TeacherRole } from "./components/TeacherRole";
-import { Hiring } from "./components/Hiring";
 import { Testimonials } from "./components/Testimonials";
 import { LeadForm } from "./components/LeadForm";
 import { Footer } from "./components/Footer";
 import { FloatingContact } from "./components/FloatingContact";
+import { PopupForm } from "./components/PopupForm";
 
 export default function App() {
   return (
@@ -26,12 +26,12 @@ export default function App() {
         <Courses />
         <TeacherRole />
         <Testimonials />
-        <Hiring />
         <LeadForm />
       </main>
 
       <Footer />
       <FloatingContact />
+      <PopupForm />
       <Toaster position="top-center" richColors />
     </div>
   );

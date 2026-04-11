@@ -24,7 +24,7 @@ export function About() {
           >
             <div className="absolute inset-0 bg-blue-100 rounded-[3rem] transform -rotate-6 scale-105 z-0"></div>
             <img 
-              src="https://images.unsplash.com/photo-1758270704689-2850704b7338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjbGFzc3Jvb20lMjBmcmllbmRseXxlbnwxfHx8fDE3NzU4MTA2OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080" 
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1080&fit=crop" 
               alt="About Learn Quickly Academy" 
               className="relative z-10 w-full aspect-[4/3] object-cover rounded-[2.5rem] shadow-2xl"
             />

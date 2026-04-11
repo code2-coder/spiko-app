@@ -38,7 +38,7 @@ export function TeacherRole() {
 
             <div className="relative rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white group">
               <img
-                src="https://images.unsplash.com/photo-1759868937821-acc700095191?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFjaGVyJTIwc21pbGluZyUyMGNsYXNzcm9vbXxlbnwxfHx8fDE3NzU4MTA2OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=1080&fit=crop"
                 alt="Teacher smiling in classroom"
                 className="w-full aspect-[4/5] object-cover group-hover:scale-105 transition-transform duration-700"
               />

@@ -5,27 +5,27 @@ import { Quote, Star } from "lucide-react";
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Rahul Sharma",
+      name: "Gauri Chavhan",
       role: "Software Engineer",
-      image: "https://i.pravatar.cc/150?img=11",
+      image: "/profile_1.jfif",
       quote:
-        "Before Learn Quickly Academy, I was terrified of HR rounds. The daily speaking challenges and mock interviews helped me crack my first IT job. Highly recommended!",
+        "The best English speaking offline and online class in bhiwandi. Best class teachers and their environment is also best.",
       rating: 5,
     },
     {
-      name: "Priya Singh",
+      name: "Shraddha Bhagat",
       role: "College Student",
-      image: "https://i.pravatar.cc/150?img=5",
+      image: "/profile_2.jfif",
       quote:
-        "The 80% practical approach is what makes them unique. I finally stopped translating Hindi to English in my head. I speak fluently now.",
+        "I had always struggled with English, but after joining LQ Academy, I feel much more confident. The way they teach is very easy to understand.",
       rating: 5,
     },
     {
-      name: "Amit Patel",
+      name: "Santosh Mahto",
       role: "Sales Executive",
-      image: "https://i.pravatar.cc/150?img=8",
+      image: "/profile_3.jfif",
       quote:
-        "My confidence has skyrocketed. The teachers are so supportive and the environment is entirely judgment-free. Best investment in myself.",
+        "Best classes for Englishspeaking in bhiwandi & atmosphere is awesome for beginners in English speaking.",
       rating: 5,
     },
   ];

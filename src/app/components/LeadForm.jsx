@@ -14,10 +14,18 @@ export function LeadForm() {
   } = useForm();
 
   const onSubmit = async (data) => {
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    toast.success("Thank you for enrolling!", {
-      description: "We will contact you shortly to schedule your free demo.",
+    const message = `Hello, I want to enroll.
+Name: ${data.fullName}
+Mobile: ${data.mobile}
+City: ${data.city}`;
+    
+    const whatsappNumber = "917841892600";
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    
+    window.open(whatsappUrl, "_blank");
+
+    toast.success("Redirecting to WhatsApp!", {
+      description: "Please send the message to complete your enrollment.",
       duration: 5000,
     });
     reset();
@@ -96,7 +104,7 @@ export function LeadForm() {
 
               <div className="text-center mb-10">
                 <h3 className="text-2xl font-bold text-slate-900 mb-2">
-                  Book Your Free Demo
+                  Enroll Now
                 </h3>
                 <p className="text-sm text-slate-500">
                   Takes less than a minute

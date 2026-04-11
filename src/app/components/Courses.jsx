@@ -20,7 +20,7 @@ export function Courses() {
         "bg-blue-50 hover:bg-blue-600 group-hover:text-white transition-colors duration-500",
       accent: "text-blue-600",
       bgImg:
-        "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsZWFybmluZyUyMGVuZ2xpc2h8ZW58MXx8fHwxNzc1ODEwNjk2fDA&ixlib=rb-4.1.0&q=80&w=600",
+        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&fit=crop",
     },
     {
       id: "interview",
@@ -33,7 +33,7 @@ export function Courses() {
         "bg-emerald-50 hover:bg-emerald-600 group-hover:text-white transition-colors duration-500",
       accent: "text-emerald-600",
       bgImg:
-        "https://images.unsplash.com/photo-1573497701240-345a300b8d36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqb2IlMjBpbnRlcnZpZXclMjBkaXZlcnNlfGVufDF8fHx8MTc3NTgxMDY5Nnww&ixlib=rb-4.1.0&q=80&w=600",
+        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&fit=crop",
     },
     {
       id: "logic",
@@ -46,7 +46,7 @@ export function Courses() {
         "bg-purple-50 hover:bg-purple-600 group-hover:text-white transition-colors duration-500",
       accent: "text-purple-600",
       bgImg:
-        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWFzb25pbmclMjBwdXp6bGV8ZW58MXx8fHwxNzc1ODEwNjk2fDA&ixlib=rb-4.1.0&q=80&w=600",
+        "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&fit=crop",
     },
   ];
 
