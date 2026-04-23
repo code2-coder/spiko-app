@@ -51,7 +51,7 @@ export function Courses() {
         "bg-purple-50 hover:bg-purple-600 group-hover:text-white transition-colors duration-500",
       accent: "text-purple-600",
       bgImg:
-        "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&fit=crop",
+        "/courses/reading.jpeg",
     },
   ];
 
