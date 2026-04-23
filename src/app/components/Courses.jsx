@@ -8,9 +8,9 @@ export function Courses() {
     {
       id: "english",
       icon: <MessagesSquare className="w-12 h-12 text-blue-600" />,
-      title: "English Speaking Course",
+      title: "🎯 Spiko (Speak with Confidence) – 90 Days",
       description:
-        "From basics to fluent conversations. Learn to speak confidently in everyday situations without hesitation.",
+        "Build strong speaking habits from day one.✔ 🗣️ Daily speaking practice✔ 💪 Confidence & communication skills✔ 🚫 No fear, no hesitation",
       features: [
         "Daily speaking practice",
         "Grammar for speaking",
@@ -20,28 +20,33 @@ export function Courses() {
         "bg-blue-50 hover:bg-blue-600 group-hover:text-white transition-colors duration-500",
       accent: "text-blue-600",
       bgImg:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&fit=crop",
+        "/courses/speak-now.jpeg",
     },
     {
       id: "interview",
       icon: <Briefcase className="w-12 h-12 text-emerald-600" />,
-      title: "Job Interview Prep",
+      title: "⚡ Speak Now (Interview & Speaking) – 90 Days",
       description:
-        "Crack HR rounds, introduce yourself perfectly, and answer tricky questions with ease.",
+        "✔ 🗣️ Speak basic English with confidence✔ 📈 Step-by-step speaking system✔ 🎤 Interview questions & answers training✔ 💬 Real-life conversation practice✔ 🔥 Build clarity, confidence & fluency",
       features: ["Mock interviews", "Resume building", "Body language tips"],
       color:
         "bg-emerald-50 hover:bg-emerald-600 group-hover:text-white transition-colors duration-500",
       accent: "text-emerald-600",
       bgImg:
-        "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&fit=crop",
+        "/courses/job.jpeg",
     },
     {
       id: "logic",
       icon: <BrainCircuit className="w-12 h-12 text-purple-600" />,
-      title: "Logical Reasoning",
+      title: "📚 Foundation (Reading & Writing) – 90 Days",
       description:
-        "Sharpen your mind for competitive exams and aptitude tests required for top MNC jobs.",
-      features: ["Pattern recognition", "Time management", "Aptitude training"],
+        "Build a strong base in English.✔ 📖 Reading & understanding✔ ✍️ Writing correct sentences✔ 🧠 Basic grammar & vocabulary",
+      features: ["Daily reading practice",
+        "Sentence writing exercises",
+        "Basic grammar mastery",
+        "Vocabulary building",
+        "Error correction techniques",
+        "Simple paragraph writing"],
       color:
         "bg-purple-50 hover:bg-purple-600 group-hover:text-white transition-colors duration-500",
       accent: "text-purple-600",
@@ -131,13 +136,12 @@ export function Courses() {
                 <a href="#contact" className="mt-auto">
                   <Button
                     variant="outline"
-                    className={`w-full border-slate-600 text-slate-300 hover:text-white transition-all duration-300 ${
-                      course.id === "english"
+                    className={`w-full border-slate-600 text-slate-300 hover:text-white transition-all duration-300 ${course.id === "english"
                         ? "hover:border-blue-500 hover:bg-blue-600"
                         : course.id === "interview"
                           ? "hover:border-emerald-500 hover:bg-emerald-600"
                           : "hover:border-purple-500 hover:bg-purple-600"
-                    }`}
+                      }`}
                   >
                     Enroll Now
                   </Button>
