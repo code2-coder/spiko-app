@@ -114,7 +114,7 @@ export function Hero() {
             {/* Main Image */}
             <div className="relative w-full max-w-lg aspect-[4/5] lg:aspect-auto lg:h-[550px] rounded-3xl overflow-hidden shadow-2xl shadow-blue-900/10 border-8 border-white">
               <img
-                src="../../public/courses/hero-page.jpeg"
+                src="/courses/hero-page.jpeg"
                 alt="Confident students learning English"
                 className="w-full h-full object-cover"
               />
