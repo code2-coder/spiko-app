@@ -28,7 +28,7 @@ export function Footer() {
             </p>
 
             <p className="font-medium text-slate-300">
-              Founder: <span className="text-white">Hitendra Choudhari</span>
+              Presented By: <span className="text-white">prime circle</span>
             </p>
           </div>
 
